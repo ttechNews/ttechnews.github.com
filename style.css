@@ -1,0 +1,642 @@
+
+ @import url('https://fonts.googleapis.com/css?family=Rubik:500');
+
+ .header {
+     width: 72.75%;
+     position: fixed;
+     margin-top: 0;
+     margin-bottom: 15%;
+     margin-left: 13.1%;
+     height: 67.5px;
+     background-color: rgb(22, 22, 22);
+    z-index: 9999;
+
+ }
+
+ .text_head {
+     font-family: Rubik;
+     position: fixed;
+     margin: auto;
+     font-size: 32.5px;
+     margin-left: 3.5%;
+     margin-top: 16px;
+     margin-bottom: 0;
+     color: rgb(255, 255, 255);
+     font-weight: normal;
+     z-index: 9999;
+
+ }
+
+ .bitc {
+
+     height: 85px;
+     width: 12%;
+     position: fixed;
+     align-content: right;
+     margin-left: 85.9%;
+     display: block;
+ }
+
+ .rubl {
+
+     height: 85px;
+     width: 12%;
+     position: fixed;
+     align-content: right;
+     margin-left: 85.9%;
+     display: block;
+     margin-top: 5%;
+ }
+
+
+ .backgr {
+     background-color: rgb(255, 255, 255);
+     height: 1325px;
+     width: 72.75%;
+     margin-top: 0;
+     margin-left:  13.1%;
+     position: absolute;
+    
+
+ }
+
+ .h1txt {
+     font-family: Rubik;
+     position: absolute;
+     margin: 6.5% 4.5%;
+     color: rgb(0, 0, 0);
+     font-weight: normal;
+     font-size: 35px;
+     
+ }
+
+
+
+
+
+ .img {
+     width: 367px;
+     height: 301px;
+     background: rgb(255, 255, 255) url(https://dummyimage.com/300x180/555/fff.png) 50% / cover;
+     display: inline-block;
+     border-radius: 10px;
+     position: absolute;
+     margin: 12.1% -1.5%;
+     opacity: 1;
+     box-shadow: inset 0px 0px 35px rgba(143, 143, 143, 0.5);
+ }
+
+ .imgbig {
+     width: 748px;
+     height: 301px;
+     background: gray url(https://dummyimage.com/300x180/555/fff.png) 50% / cover;
+     border-radius: 10px;
+     position: absolute;
+     margin-top: 40.5% ;
+     margin-left: -1.5%;
+     box-shadow: inset 0px 0px 35px rgba(143, 143, 143, 0.5);
+ }
+
+
+ .pic4 {
+     background-image: url("https://i.imgur.com/HZ50n4R.jpg");
+     filter: grayscale(100%);
+     transition: 0.3s;
+ }
+
+ .pic2 {
+     background-image: url("https://i.imgur.com/8tRONMw.jpg");
+     filter: grayscale(100%);
+     transition: 0.3s;
+ }
+
+
+ .pic3 {
+     background-image: url("https://i.imgur.com/dLoN12t.jpg");
+     filter: grayscale(100%);
+     transition: 0.3s;
+ }
+
+
+
+ .pic1 {
+     background-image: url("https://i.imgur.com/CMzPYBw.jpg");
+     filter: grayscale(100%);
+     transition: 0.3s;
+ }
+
+
+
+ .pic5 {
+     background-image: url("https://i.imgur.com/d4xUf2L.jpg");
+     filter: grayscale(100%);
+     transition: 0.3s;
+ }
+
+
+
+ .pic6 {
+     background-image: url("https://i.imgur.com/s3E9RT9.png");
+     filter: grayscale(100%);
+     transition: 0.3s;
+ }
+
+
+
+
+
+ .fon {
+     margin: 13% 5.8%;
+     background-color: rgb(238, 237, 237);
+     width: 520px;
+     height: 520px;
+     position: absolute;
+
+ }
+
+ .state1 {
+     margin-left: 6%;
+ }
+
+ .state2 {
+     margin-left: 40.5%;
+ }
+
+
+
+ .state3 {
+     
+     margin-left: 6%;
+     
+ }
+
+ .state4 {
+     margin-left: 6%;
+     margin-top: 56.8%;
+ }
+
+ .state5 {
+     margin-left: 40.5%;
+ }
+
+
+
+ .state6 {
+     margin-left: 6%;
+     
+ }
+
+ .h2st1 {
+     font-family: Rubik;
+     position: absolute;
+     color: rgb(255, 255, 255);
+     font-size: 25px;
+     margin-top: 27.5%;
+     margin-left: 1%;
+     width: 300px;
+     font-weight: 400;
+     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
+
+ }
+
+ .pst1 {
+     font-family: Rubik Regular;
+     position: absolute;
+     color: rgb(255, 255, 255);
+     font-size: 17px;
+     margin-top: 33.5%;
+     margin-left: 1%;
+     width: 300px;
+     font-weight: 400;
+     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
+
+
+ }
+
+ .h2st2 {
+    font-family: Rubik;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 27.5%;
+    margin-left: 1%;
+    width: 300px;
+    font-weight: 400;
+    text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
+}
+
+
+
+.pst2 {
+    font-family: Rubik Regular;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin-top: 33.5%;
+    margin-left: 1%;
+    width: 300px;
+    text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
+}
+.h2st4 {
+    font-family: Rubik;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 27.5%;
+    margin-left: 1%;
+    width: 300px;
+    font-weight: 400;
+    text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
+}
+
+
+
+.pst4 {
+    font-family: Rubik Regular;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin-top: 33.5%;
+    margin-left: 1%;
+    width: 300px;
+    text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
+}
+.h2st3 {
+    font-family: Rubik;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-top: 44.5%;
+    margin-left: 1%;
+    width: 400px;
+    font-weight: 400;
+    text-shadow: 0 0 5px rgba(223, 223, 223, 0.5);
+}
+
+
+
+.pst3 {
+    font-family: Rubik Regular;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    margin-top: 50.5%;
+    margin-left: 1%;
+    width: 310px;
+    text-shadow: 0 0 5px rgba(223, 223, 223, 0.5);
+}
+.h2st5 {
+    font-family: Rubik;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 27.5%;
+    margin-left: 1%;
+    width: 300px;
+    font-weight: 400;
+    text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
+}
+
+
+
+.pst5 {
+    font-family: Rubik Regular;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin-top: 33.5%;
+    margin-left: 1%;
+    width: 300px;
+    text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
+}
+.h2st6 {
+    font-family: Rubik;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 44.4%;
+    margin-left: 1%;
+    width: 350px;
+    font-weight: 400;
+    text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
+}
+
+
+
+.pst6 {
+    font-family: Rubik Regular;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin-top: 50.4%;
+    margin-left: 1%;
+    width: 250px;
+    text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
+}
+ .state1:hover .pic1{
+    cursor: pointer;
+    filter:none;
+    transform: scale(1.02)
+ }
+ .state2:hover .pic2{
+     cursor: pointer;
+    filter:none;
+    transform: scale(1.02)
+ }
+ .state3:hover .pic3{
+     cursor: pointer;
+    filter:none;
+    transform: scale(1.02)
+ }
+ .state4:hover .pic4{
+    cursor: pointer;
+    filter:none;
+    transform: scale(1.02)
+ }
+ .state5:hover .pic5{
+     cursor: pointer;
+    filter:none;
+    transform: scale(1.02)
+ }
+ .state6:hover .pic6{
+     cursor: pointer;
+    filter:none;
+    transform: scale(1.02)
+ }
+ .h2st1:hover,.pst1:hover{
+     cursor: pointer;
+ }
+ .h2st2:hover,.pst2:hover{
+    cursor: pointer;
+}
+.h2st3:hover,.pst3:hover{
+    cursor: pointer;
+}
+.h2st4:hover,.pst4:hover{
+    cursor: pointer;
+}
+.h2st5:hover,.pst5:hover{
+    cursor: pointer;
+}
+.h2st6:hover,.pst6:hover{
+    cursor: pointer;
+}
+.nav {
+    font-family: Rubik;
+    color: rgb(110, 110, 110);
+    font-weight: normal;
+    font-size: 103%;
+    margin-left: -24.5%;
+    margin-top: -6%;
+    width: 110%;
+    height: 97%;
+    position: absolute;
+    
+    
+}
+.navtxt {
+    font-family: Rubik;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    font-size: 35px;
+    margin-top: -8.9%;
+    margin-left: -14%;
+    
+    
+    
+}
+.navig{
+    
+    background-color: none;
+    width: 14.2%;
+    height: 50%;
+    margin-top: 6%;
+    margin-left:  55.5%;
+    position: fixed;
+    
+}
+.backposl{
+    background-color: rgb(247, 247, 247);
+    margin: 8.79% 53.5%;
+    width: 16%;
+    height: 51.75%;
+    position: fixed;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 20px rgba(190, 190, 190, 0.5);
+}
+
+.t1, .t2, .t3, .t4, .t5, .t6 {
+    font-family: Rubik Regular;
+    font-size: 110%;
+    color: rgb(119, 119, 119);
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.t1:hover{
+    cursor: pointer;
+    
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    font-size: 18px;
+}
+.t2:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    font-size: 18px;
+}
+.t3:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    font-size: 18px;
+}
+.t4:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    font-size: 18px;
+}
+.t5:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    font-size: 18px;
+}
+
+.t6:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    font-size: 18px;
+}
+.Alltxtst{
+    font-family: Rubik;
+     position: absolute;
+     margin: 6.8% 4.5%;
+     color: rgb(148, 148, 148);
+     font-weight: normal;
+     font-size: 25px;
+}
+.Zagolovokstates{
+    font-family: Rubik;
+     position: absolute;
+     margin: 14.8% 6.5%;
+     color: rgb(0, 0, 0);
+     font-weight: normal;
+     font-size: 40px;
+     width: 704px;
+     
+}
+.txtstates{
+    font-family: Rubik Regular;
+     position: absolute;
+     color: rgb(85, 85, 85);
+     font-weight: normal;
+     font-size: 18.5px;
+     width: 64%;
+     line-height: 1.75;
+}
+
+.imgstates{
+    width: 704px;
+     height: 350px;
+     background: grey url("https://dummyimage.com/300x180/555/fff.png") 50% / cover;
+     border-radius: 10px;
+     position: absolute;
+     
+     
+}
+.pic1state1{
+    background-image: url("https://www.macdigger.ru/storage/app/media/news/2018/11/18/o-TIM-COOK-facebook.jpg");
+}
+.pic1state2{
+    background-image: url("https://www.shanethegamer.com/wp-content/uploads/2018/09/watch-shop-series4.jpg");
+}
+.pic1state3{
+    background-image: url("https://www.kickstuff.ru/images/blog/nike%20adapt%20bb/Sp19_BB_Nike_Adapt_Shoe_Screen_Horz_01012019_native_1600.jpg");
+}
+.pic1state4{
+    background-image: url("https://3dnews.ru/assets/external/illustrations/2018/06/30/972007/DRVaKWRWAAEqncB.jpg%20large.jpg");
+}
+.pic1state5{
+    background-image: url("https://pbs.twimg.com/media/D0C3kVCXgAAk2Bf.jpg");
+}
+.pic1state6{
+    background-image: url("https://tehnot.com/wp-content/uploads/2017/11/Red_Bay-1440.jpg");
+}
+.backstates{
+    background-color: rgb(247, 247, 247);
+    margin-top: 12.1% ;
+    margin-left: 4.5%;
+    width: 67.6%;
+    
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 20px rgba(190, 190, 190, 0.5);
+}
+
+.navtxtstate{
+    font-family: Rubik Regular;
+     position: absolute;
+     
+     color: rgb(85, 85, 85);
+     font-weight: normal;
+     font-size: 16px;
+     text-decoration: none;
+    
+     
+}
+.navtxtstate:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    font-size: 16.1px;
+}
+.backgrmain{
+    background-color: rgb(255, 255, 255);
+    height: 1485px;
+    width: 72.75%;
+    margin: 0 13.1%;
+    position: absolute;
+}
+.foot{
+    bottom: -106.75%;
+    background-color: rgb(22, 22, 22);
+    width: 72.75%;
+    margin-left: 13.1%;
+    height: 12%;
+    position: absolute;
+    z-index: 10000;
+}
+.text_footer{
+    font-family: Rubik;
+    position: absolute;
+    margin-top: 2.5%;
+    font-size: 32.5px;
+    margin-left: 4.5%;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    z-index: 9999;
+ }
+ .imgfooter{
+    width: 158.2x;
+    height: 36.2px;
+    margin-top: 2.5%;
+    margin-left:  81%;
+    z-index: 10001;
+    
+    
+ }
+ .txtfoot{
+    font-family: Rubik Regular;
+    position: absolute;
+    color: rgb(231, 231, 231);
+    font-weight: normal;
+    font-size: 15.5px;
+    margin-left: 4.5%;
+    margin-top: 4.5%;
+    font-weight: 100;
+    
+ }
+ .imgfooter:hover, .txthov:hover {
+     cursor: pointer;
+    }
+ .time{
+    font-family: Rubik Regular;
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 2%;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 20px;
+    
+ }
+ .icontime{
+    font-family: Rubik Regular;
+    position: absolute;
+    margin-left: 87.5%;
+    margin-top: 2.25%;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 20px;
+ }
+ .date {
+    font-family: Rubik Regular;
+    position: absolute;
+    margin-left: 77.5%;
+    margin-top: 2%;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 20px;
+  }
+  .icondate{
+    font-family: Rubik Regular;
+    position: absolute;
+    margin-left: 75.25%;
+    margin-top: 2.25%;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 20px;
+ }
