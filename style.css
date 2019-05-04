@@ -69,16 +69,12 @@
      font-size: 35px;
      
  }
-
-
-
-
-
  .img {
-     width: 367px;
-     height: 301px;
+
+     width: 23.95vw;
+     height: 39.8vh;
      background: rgb(255, 255, 255) url(https://dummyimage.com/300x180/555/fff.png) 50% / cover;
-     display: inline-block;
+     
      border-radius: 10px;
      position: absolute;
      margin: 12.1% -1.5%;
@@ -87,8 +83,8 @@
  }
 
  .imgbig {
-     width: 748px;
-     height: 301px;
+     width: 48.8vw;
+     height: 39.8vh;
      background: gray url(https://dummyimage.com/300x180/555/fff.png) 50% / cover;
      border-radius: 10px;
      position: absolute;
@@ -99,20 +95,20 @@
 
 
  .pic4 {
-     background-image: url("https://i.imgur.com/HZ50n4R.jpg");
+     background-image: url("img/Apple.webp");
      filter: grayscale(100%);
      transition: 0.3s;
  }
 
  .pic2 {
-     background-image: url("https://i.imgur.com/8tRONMw.jpg");
+     background-image: url("img/ApWatch.webp");
      filter: grayscale(100%);
      transition: 0.3s;
  }
 
 
  .pic3 {
-     background-image: url("https://i.imgur.com/dLoN12t.jpg");
+     background-image: url("img/Cross.webp");
      filter: grayscale(100%);
      transition: 0.3s;
  }
@@ -120,7 +116,7 @@
 
 
  .pic1 {
-     background-image: url("https://i.imgur.com/CMzPYBw.jpg");
+     background-image: url("img/Tim.webp");
      filter: grayscale(100%);
      transition: 0.3s;
  }
@@ -128,7 +124,7 @@
 
 
  .pic5 {
-     background-image: url("https://i.imgur.com/d4xUf2L.jpg");
+     background-image: url("img/FireFox.webp");
      filter: grayscale(100%);
      transition: 0.3s;
  }
@@ -136,7 +132,7 @@
 
 
  .pic6 {
-     background-image: url("https://i.imgur.com/s3E9RT9.png");
+     background-image: url("img/tesla.webp");
      filter: grayscale(100%);
      transition: 0.3s;
  }
@@ -640,3 +636,4 @@
     font-weight: normal;
     font-size: 20px;
  }
+ @media screen and (ьшт-width: )
