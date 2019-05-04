@@ -1,6 +1,9 @@
 
  @import url('https://fonts.googleapis.com/css?family=Rubik:500');
 
+ body{
+     margin: 0;
+ }
  .header {
      width: 72.75%;
      position: fixed;
@@ -382,96 +385,66 @@
     color: rgb(110, 110, 110);
     font-weight: normal;
     font-size: 103%;
-    margin-left: -24.5%;
-    margin-top: -6%;
-    width: 110%;
-    height: 97%;
-    position: absolute;
+    
+    
+    
     
     
 }
-.navtxt {
+.posl{
     font-family: Rubik;
-    color: rgb(0, 0, 0);
-    font-weight: normal;
-    font-size: 35px;
-    margin-top: -8.9%;
-    margin-left: -14%;
-    
-    
+     margin-top: -25%;
+     position: absolute;
+     color: rgb(0, 0, 0);
+     font-weight: normal;
+     font-size: 35px;
+}
+ul{
+    padding: 2.5% 5%;
+    margin: 0;
     
 }
 .navig{
     
     background-color: none;
-    width: 14.2%;
-    height: 50%;
-    margin-top: 6%;
-    margin-left:  55.5%;
+    padding-bottom: 0.5%;
+    text-align: left;
+    margin-top: 8.75%;
+    margin-left:  53.5%;
     position: fixed;
-    
-}
-.backposl{
+    display: flex;
     background-color: rgb(247, 247, 247);
-    margin: 8.79% 53.5%;
     width: 16%;
-    height: 51.75%;
-    position: fixed;
     border-radius: 10px;
     box-shadow: inset 0px 0px 20px rgba(190, 190, 190, 0.5);
+    
 }
 
-.t1, .t2, .t3, .t4, .t5, .t6 {
+
+.tnavig {
+    
     font-family: Rubik Regular;
     font-size: 110%;
     color: rgb(119, 119, 119);
     font-weight: 500;
     text-decoration: none;
     transition: 0.5s;
-}
-
-.t1:hover{
-    cursor: pointer;
     
-    color: rgb(0, 0, 0);
-    transition: 0.5s;
-    font-size: 18px;
-}
-.t2:hover{
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-    transition: 0.5s;
-    font-size: 18px;
-}
-.t3:hover{
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-    transition: 0.5s;
-    font-size: 18px;
-}
-.t4:hover{
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-    transition: 0.5s;
-    font-size: 18px;
-}
-.t5:hover{
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-    transition: 0.5s;
-    font-size: 18px;
+    
+    
 }
 
-.t6:hover{
+.tnavig:hover{
     cursor: pointer;
     color: rgb(0, 0, 0);
-    transition: 0.5s;
-    font-size: 18px;
+    font-size: 110.5%;
+   
 }
+
 .Alltxtst{
     font-family: Rubik;
      position: absolute;
-     margin: 6.8% 4.5%;
+     margin: 7% 4.5%;
      color: rgb(148, 148, 148);
      font-weight: normal;
      font-size: 25px;
@@ -552,10 +525,13 @@
 }
 .backgrmain{
     background-color: rgb(255, 255, 255);
-    height: 1485px;
+    height: 200%;
     width: 72.75%;
     margin: 0 13.1%;
     position: absolute;
+}
+footer{
+    bottom: 0;
 }
 .foot{
     bottom: -106.75%;
@@ -636,4 +612,4 @@
     font-weight: normal;
     font-size: 20px;
  }
- @media screen and (ьшт-width: )
+ 

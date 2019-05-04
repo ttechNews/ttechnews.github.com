@@ -58,6 +58,17 @@
     setInterval(getDate2, 0);
 </script>
 <!--ВРЕМЯ НА САЙТЕ-->
+<!--СКРИПТ ПЛАВНОГО ПЕРЕМЕЩЕНИЯ-->
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#menu").on("click", "a", function (event) {
+            event.preventDefault();
+            var id = $(this).attr('href'),
+                top = $(id).offset().top;
+            $('body,html').animate({ scrollTop: top }, 750);
+        });
+    });
+</script>
 
 <body style="background-color: rgb(235, 230, 230); margin: 0 auto;">
 
@@ -79,40 +90,33 @@
 
         <h1 class="h1txt" id="l1">Все новости</h1>
 
-        <div class="backposl"></div>
 
-        <article class="navig">
-            <h1 class="navtxt">Последние</h1>
-            <!--СКРИПТ ПЛАВНОГО ПЕРЕМЕЩЕНИЯ-->
-            <script type="text/javascript">
-                $(document).ready(function () {
-                    $("#menu").on("click", "a", function (event) {
-                        event.preventDefault();
-                        var id = $(this).attr('href'),
-                            top = $(id).offset().top;
-                        $('body,html').animate({ scrollTop: top }, 750);
-                    });
-                });
-            </script>
+
+
+        <section class="navig">
+            <h1 class="posl">Последние</h1>
             <nav class="nav" id="menu">
-                <ul><a href="#l1" class="t1">Тим Кук - о новинках Apple</a></ul>
-                <ul><a href="#l1" class="t2">Новая версия Apple Watch</a></ul>
-                <ul><a href="#l2" class="t3">Кроссовки шнуруются самостоятельно?</a></ul>
-                <ul><a href="#l3" class="t4">Складной смартфон от Microsoft</a></ul>
-                <ul><a href="#l3" class="t4">Firefox разработал новый браузер</a></ul>
-                <ul><a href="#l4" class="t5">Хакеры управляют Tesla с помощью джойстика</a></ul>
+                <ul><a href="#l1" class="tnavig ">Тим Кук - о новинках Apple</a></ul>
+                <ul><a href="#l1" class="tnavig ">Новая версия Apple Watch</a></ul>
+                <ul><a href="#l2" class="tnavig ">Кроссовки шнуруются самостоятельно?</a></ul>
+                <ul><a href="#l3" class="tnavig ">Складной смартфон от Microsoft</a></ul>
+                <ul><a href="#l3" class="tnavig ">Firefox разработал новый браузер</a></ul>
+                <ul><a href="#l4" class="tnavig ">Хакеры управляют Tesla с помощью джойстика</a></ul>
 
 
             </nav>
-            </div>
-        </article>
+
+        </section>
+
 
         <!-- СТАТЬЯ НОМЕР ОДИН-->
         <article class="state1">
 
 
             <div class="img pic1 container" onClick="window.location='state1.html'"></div>
-            <h2 class="h2st4" onClick="window.location='state1.html'">Тим Кук - о новинках Apple</h2>
+            <header>
+                <h2 class="h2st4" onClick="window.location='state1.html'">Тим Кук - о новинках Apple</h2>
+            </header>
             <p class="pst4" onClick="window.location='state1.html'">По мнению Тима Кука новые гаджеты Apple удивят
                 покупателей</p>
 
@@ -123,8 +127,9 @@
         <article class="state2">
 
             <div id="#hideimg " class="img pic2" onClick="window.location='state2.html'"></div>
-
-            <h2 class="h2st2" id="l2" onClick="window.location='state2.html'">Новая версия Apple Watch</h2>
+            <header>
+                <h2 class="h2st2" id="l2" onClick="window.location='state2.html'">Новая версия Apple Watch</h2>
+            </header>
             <p class="pst2" onClick="window.location='state2.html'">Будущие смарт-часы смогут чувствовать наши
                 запахи
             </p>
@@ -134,7 +139,9 @@
         <article class="state3">
 
             <div class="imgbig pic3" onClick="window.location='state3.html'"></div>
-            <h2 class="h2st3" onClick="window.location='state3.html'">Кроссовки шнуруются самостоятельно?</h2>
+            <header>
+                <h2 class="h2st3" onClick="window.location='state3.html'">Кроссовки шнуруются самостоятельно?</h2>
+            </header>
             <p class="pst3" id="l3" onClick="window.location='state3.html'">Nike Adapt BB – это, пожалуй, самая
                 технологически продвинутая обувь в мире.
                 Подстраивается
@@ -146,7 +153,9 @@
         <article class="state4">
 
             <div class="img pic4" onClick="window.location='state4.html'"></div>
-            <h2 class="h2st1" onClick="window.location='state4.html'">Складной смартфон от Microsoft</h2>
+            <header>
+                <h2 class="h2st1" onClick="window.location='state4.html'">Складной смартфон от Microsoft</h2>
+            </header>
             <p class="pst1" onClick="window.location='state4.html'">Компания патентует очередное техническое решение
             </p>
         </article>
@@ -155,7 +164,10 @@
         <article class="state5">
 
             <div class="img pic5" onClick="window.location='state5.html'"></div>
-            <h2 class="h2st5" id="l4" onClick="window.location='state5.html'">Firefox разработал новый браузер</h2>
+            <header>
+                <h2 class="h2st5" id="l4" onClick="window.location='state5.html'">Firefox разработал новый браузер
+                </h2>
+            </header>
             <p class="pst5" onClick="window.location='state5.html'">Компания работает над браузером для мобильных
                 устройств</p>
         </article>
@@ -164,8 +176,10 @@
         <article class="state6">
 
             <div class="imgbig pic6" onClick="window.location='state6.html'"></div>
-            <h2 class="h2st6" onClick="window.location='state6.html'">Хакеры управляют Tesla с помощью джойстика
-            </h2>
+            <header>
+                <h2 class="h2st6" onClick="window.location='state6.html'">Хакеры управляют Tesla с помощью джойстика
+                </h2>
+            </header>
             <p class="pst6" onClick="window.location='state6.html'">Эксперты по безопасности из китайской компании
                 Tencent Keen Security опубликовали отчет, из
                 которого следует, что автопилот Tesla можно легко запутать </p>
