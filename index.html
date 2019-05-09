@@ -15,13 +15,13 @@
 </head>
 <!--СКРИПТ - ОТКРЫТИЕ ССЫЛКИ В НОВОЙ ВКЛАДКЕ-->
 <script language="JavaScript">
-    hide
+
     function imgfooter(url) {
         myWin = open(url = "https://informatics.ru");
     } 
 </script>
 <script language="JavaScript">
-    hide
+
     function hittech(url) {
         myWin = open(url = "https://hi-tech.news");
     } 
@@ -73,119 +73,187 @@
 <body style="background-color: rgb(235, 230, 230); margin: 0 auto;">
 
     <header>
-        <div class="header">
-            <a class="text_head" href="index.html" style="text-decoration:none">tech<span>News</span></a>
+        <div class="headerMain" id="l1">
+            <div class="header">
+                <section>
+                    <a class="text_head" href="index.html" style="text-decoration:none">tech<span>News</span></a>
+                </section>
 
-            <div id="timedisplay" class="time" style="color: rgb(204, 118, 19)"></div>
-            <i class="far fa-clock icontime" style="color: rgb(204, 118, 19)"></i>
-            <div id="datedisplay" class="date"></div>
-            <!--<i class="far fa-calendar icondate " aria-hidden="true" style="color: rgb(204, 118, 19)"></i>-->
+                <div class="dateAll">
 
+                    <div class="far fa-clock icontime" style="color: rgb(204, 118, 19)"></div>
+
+                    <div id="datedisplay" class="date"></div>
+                    <div id="timedisplay" class="time" style="color: rgb(204, 118, 19)"></div>
+
+                    <!--<i class="far fa-calendar icondate " aria-hidden="true" style="color: rgb(204, 118, 19)"></i>-->
+                </div>
+
+            </div>
         </div>
-
-
     </header>
-    <main class=" backgrmain" style="margin-top: 2.5%">
-        <div class="lin" style="width: 0.1%; height: 0.1%; margin-top: 0;" id="l1"></div>
-
-        <h1 class="h1txt" id="l1">Все новости</h1>
-
+    <main>
+        <div class="mainBackground">
+            <div class="page-content">
 
 
 
-        <section class="navig">
-            <h1 class="posl">Последние</h1>
-            <nav class="nav" id="menu">
-                <ul><a href="#l1" class="tnavig ">Тим Кук - о новинках Apple</a></ul>
-                <ul><a href="#l1" class="tnavig ">Новая версия Apple Watch</a></ul>
-                <ul><a href="#l2" class="tnavig ">Кроссовки шнуруются самостоятельно?</a></ul>
-                <ul><a href="#l3" class="tnavig ">Складной смартфон от Microsoft</a></ul>
-                <ul><a href="#l3" class="tnavig ">Firefox разработал новый браузер</a></ul>
-                <ul><a href="#l4" class="tnavig ">Хакеры управляют Tesla с помощью джойстика</a></ul>
+
+                <section class="AllnewsMain">
+
+                    <div>
+                        <h1 class="h1txt">Все новости</h1>
+                    </div>
+
+                    <div class="newsMain">
+                        <!-- СТАТЬЯ НОМЕР ОДИН-->
+                        <article class="state1 SpaceStates">
+
+                            <div class="img pic1" onClick="window.location='state1.html'">
+                                <div class="textStatesMain" id="l2">
+                                    <header>
+                                        <h2 class="h2st1" onClick="window.location='state1.html'">Тим Кук - о
+                                            новинках
+                                            Apple
+                                        </h2>
+                                    </header>
+                                    <p class="pst1" onClick="window.location='state1.html'">По мнению Тима Кука
+                                        новые
+                                        гаджеты
+                                        Apple
+                                        удивят
+                                        покупателей</p>
+                                </div>
+                            </div>
+
+                        </article>
+
+                        <!-- СТАТЬЯ НОМЕР ДВА-->
+                        <article class="state2 SpaceStates">
+
+                            <div class="img pic2" onClick="window.location='state2.html'">
+                                <div class="textStatesMain">
+                                    <header>
+                                        <h2 class="h2st2" onClick="window.location='state2.html'">Новая
+                                            версия
+                                            Apple
+                                            Watch</h2>
+                                    </header>
+                                    <p class="pst2" onClick="window.location='state2.html'">Будущие смарт-часы
+                                        смогут
+                                        чувствовать наши
+                                        запахи
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- СТАТЬЯ НОМЕР ТРИ-->
+                        <article class="state3 SpaceStates">
+
+                            <div class="imgbig pic3" onClick="window.location='state3.html'">
+                                <div class="textStatesBig">
+                                    <header>
+                                        <h2 class="h2st3" onClick="window.location='state3.html'">Кроссовки шнуруются
+                                            самостоятельно?</h2>
+                                    </header>
+                                    <p class="pst3" id="l3" onClick="window.location='state3.html'">Nike Adapt BB – это,
+                                        пожалуй, самая
+                                        технологически продвинутая обувь в мире.
+                                        Подстраивается
+                                        к размеру ноги, а кроме того, сама зашнуровывается</p>
+                                </div>
+                            </div>
 
 
-            </nav>
+                        </article>
 
-        </section>
+                        <!-- СТАТЬЯ НОМЕР ЧЕТЫРЕ-->
+                        <article class="state4 SpaceStates">
 
+                            <div class="img pic4" onClick="window.location='state4.html'">
+                                <div class="textStatesMain">
+                                    <header>
+                                        <h2 class="h2st4" onClick="window.location='state4.html'">Складной смартфон от
+                                            Microsoft
+                                        </h2>
+                                    </header>
+                                    <p class="pst4" onClick="window.location='state4.html'">Компания патентует очередное
+                                        техническое
+                                        решение
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
 
-        <!-- СТАТЬЯ НОМЕР ОДИН-->
-        <article class="state1">
+                        <!-- СТАТЬЯ НОМЕР ПЯТЬ-->
+                        <article class="state5 SpaceStates">
 
+                            <div class="img pic5" onClick="window.location='state5.html'">
+                                <div class="textStatesMain">
+                                    <header>
+                                        <h2 class="h2st5" id="l4" onClick="window.location='state5.html'">Firefox
+                                            разработал
+                                            новый
+                                            браузер
+                                        </h2>
+                                    </header>
+                                    <p class="pst5" onClick="window.location='state5.html'">Компания работает над
+                                        браузером для
+                                        мобильных
+                                        устройств</p>
+                                </div>
+                            </div>
+                        </article>
 
-            <div class="img pic1 container" onClick="window.location='state1.html'"></div>
-            <header>
-                <h2 class="h2st4" onClick="window.location='state1.html'">Тим Кук - о новинках Apple</h2>
-            </header>
-            <p class="pst4" onClick="window.location='state1.html'">По мнению Тима Кука новые гаджеты Apple удивят
-                покупателей</p>
+                        <!-- СТАТЬЯ НОМЕР ШЕСТЬ-->
+                        <article class="state6 SpaceStates">
 
-
-
-        </article>
-        <!-- СТАТЬЯ НОМЕР ДВА-->
-        <article class="state2">
-
-            <div id="#hideimg " class="img pic2" onClick="window.location='state2.html'"></div>
-            <header>
-                <h2 class="h2st2" id="l2" onClick="window.location='state2.html'">Новая версия Apple Watch</h2>
-            </header>
-            <p class="pst2" onClick="window.location='state2.html'">Будущие смарт-часы смогут чувствовать наши
-                запахи
-            </p>
-        </article>
-
-        <!-- СТАТЬЯ НОМЕР ТРИ-->
-        <article class="state3">
-
-            <div class="imgbig pic3" onClick="window.location='state3.html'"></div>
-            <header>
-                <h2 class="h2st3" onClick="window.location='state3.html'">Кроссовки шнуруются самостоятельно?</h2>
-            </header>
-            <p class="pst3" id="l3" onClick="window.location='state3.html'">Nike Adapt BB – это, пожалуй, самая
-                технологически продвинутая обувь в мире.
-                Подстраивается
-                к размеру ноги, а кроме того, сама зашнуровывается</p>
-
-        </article>
-
-        <!-- СТАТЬЯ НОМЕР ЧЕТЫРЕ-->
-        <article class="state4">
-
-            <div class="img pic4" onClick="window.location='state4.html'"></div>
-            <header>
-                <h2 class="h2st1" onClick="window.location='state4.html'">Складной смартфон от Microsoft</h2>
-            </header>
-            <p class="pst1" onClick="window.location='state4.html'">Компания патентует очередное техническое решение
-            </p>
-        </article>
-
-        <!-- СТАТЬЯ НОМЕР ПЯТЬ-->
-        <article class="state5">
-
-            <div class="img pic5" onClick="window.location='state5.html'"></div>
-            <header>
-                <h2 class="h2st5" id="l4" onClick="window.location='state5.html'">Firefox разработал новый браузер
-                </h2>
-            </header>
-            <p class="pst5" onClick="window.location='state5.html'">Компания работает над браузером для мобильных
-                устройств</p>
-        </article>
-
-        <!-- СТАТЬЯ НОМЕР ШЕСТЬ-->
-        <article class="state6">
-
-            <div class="imgbig pic6" onClick="window.location='state6.html'"></div>
-            <header>
-                <h2 class="h2st6" onClick="window.location='state6.html'">Хакеры управляют Tesla с помощью джойстика
-                </h2>
-            </header>
-            <p class="pst6" onClick="window.location='state6.html'">Эксперты по безопасности из китайской компании
-                Tencent Keen Security опубликовали отчет, из
-                которого следует, что автопилот Tesla можно легко запутать </p>
-        </article>
+                            <div class="imgbig pic6" onClick="window.location='state6.html'">
+                                <div class="textStatesBig">
+                                    <header>
+                                        <h2 class="h2st6" onClick="window.location='state6.html'">Хакеры управляют Tesla
+                                            с
+                                            помощью
+                                            джойстика
+                                        </h2>
+                                    </header>
+                                    <p class="pst6" onClick="window.location='state6.html'">Эксперты по безопасности из
+                                        китайской
+                                        компании
+                                        Tencent Keen Security опубликовали отчет, из
+                                        которого следует, что автопилот Tesla можно легко запутать </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <section>
 
 
+
+                    <div class="Navigation">
+
+                        <h1 class="h1txt">Последние</h1>
+                        <div class="navig">
+
+                            <nav class="nav" id="menu">
+                                <ul><a href="#l1" class="tnavig ">Тим Кук - о новинках Apple</a></ul>
+                                <ul><a href="#l1" class="tnavig ">Новая версия Apple Watch</a></ul>
+                                <ul><a href="#l2" class="tnavig ">Кроссовки шнуруются самостоятельно?</a></ul>
+                                <ul><a href="#l3" class="tnavig ">Складной смартфон от Microsoft</a></ul>
+                                <ul><a href="#l3" class="tnavig ">Firefox разработал новый браузер</a></ul>
+                                <ul><a href="#l4" class="tnavig ">Хакеры управляют Tesla с помощью джойстика</a>
+                                </ul>
+
+
+                            </nav>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
     </main>
     <footer class="foot">
         <p class="txtfoot" style="margin-top: 2.2%; margin-left: 62.5%;">Сделано при поддержке:</p>

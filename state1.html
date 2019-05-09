@@ -13,13 +13,13 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <script language="JavaScript">
-    hide
+
     function imgfooter(url) {
         myWin = open(url = "https://informatics.ru");
     } 
 </script>
 <script language="JavaScript">
-    hide
+
     function hittech(url) {
         myWin = open(url = "https://hi-tech.news");
     } 
@@ -53,107 +53,142 @@
 </script>
 <!--ВРЕМЯ НА САЙТЕ-->
 
-<body style="background-color: rgb(235, 230, 230);  margin-top: 0; ">
+<body>
 
+    <header>
+        <div class="headerMain" id="l1">
+            <div class="header">
+                <section>
+                    <a class="text_head" href="index.html" style="text-decoration:none">tech<span>News</span></a>
+                </section>
 
-    <main class="backgr" style="margin-top: 2%;">
+                <div class="dateAll">
 
-        <a class="Alltxtst" href="index.html" style="text-decoration:none">
-            Все новости </a>
+                    <div class="far fa-clock icontime" style="color: rgb(204, 118, 19)"></div>
 
+                    <div id="datedisplay" class="date"></div>
+                    <div id="timedisplay" class="time" style="color: rgb(204, 118, 19)"></div>
+
+                    <!--<i class="far fa-calendar icondate " aria-hidden="true" style="color: rgb(204, 118, 19)"></i>-->
+                </div>
+
+            </div>
         </div>
-        <section class="navig">
-            <h1 class="posl">Последние</h1>
-            <nav class="nav" id="menu">
-                <ul><a href="state1.html" class="tnavig ">Тим Кук - о новинках Apple</a></ul>
-                <ul><a href="state2.html" class="tnavig ">Новая версия Apple Watch</a></ul>
-                <ul><a href="state3.html" class="tnavig ">Кроссовки шнуруются самостоятельно?</a></ul>
-                <ul><a href="state4.html" class="tnavig ">Складной смартфон от Microsoft</a></ul>
-                <ul><a href="state5.html" class="tnavig ">Firefox разработал новый браузер</a></ul>
-                <ul><a href="state6.html" class="tnavig ">Хакеры управляют Tesla с помощью джойстика</a></ul>
+    </header>
+
+    <main>
+        <div class="mainBackground">
+            <div class="page-content">
 
 
-            </nav>
 
-        </section>
+                <section>
 
-
-        <div class="backstates" style="height: 1110px;"></div>
-        <header>
-            <h1 class="Zagolovokstates">Тим Кук - о новинках Apple</h1>
-        </header>
-
-        <main>
-
-            <p class="txtstates" style="margin-top: 21%; margin-left: 6.5%">Во время недавней встречи с инвесторами
-                в Купертино Тим Кук не
-                боялся смелых
-                анонсов. Устройства, которые в ближайшее время представит Apple, по мнению Тима, могут вызвать
-                шок у
-                покупателей.
-            </p>
-            <p class="txtstates" style="margin-top: 64%; margin-left: 6.5%">Может показаться, что после выхода
-                Samsung Galaxy Fold, Huawei Mate X и
-                несколько
-                других инновационных моделей, Apple может набраться уважения к конкуренции, которая, как никогда
-                вышла вперед в гонке за внимание покупателей. Но вопреки всему Тим Кук объявил, что Apple
-                готовит
-                что-то лучшее. Что именно? Этого мы еще не знаем.
-            </p>
-            <p class="txtstates" style="margin-top: 80%; margin-left: 6.5%">Напомним, что в последнее время в сети
-                появилось много патентов,
-                зарегистрированных компанией Купертино, которые касаются мобильных устройств с гибкими экранами.
-                Возможно, что речь идет именно о такого рода оборудовании.
-            </p>
-            <p class="txtstates" style="margin-top: 93.3%; margin-left: 6.5%">Стоит отметить, что Apple, возможно, в
-                ближайшие месяцы представит устройства,
-                находящиеся только в стадии разработки, которые выйдут в продажу в следующем году, так как это
-                произошло в случае с беспроводным зарядным устройством AirPower. Это означает, что они появятся
-                на
-                рынке в то время, когда китайская и корейская конкуренция будет представлять второе поколение
-                гибких
-                смартфонов. Инвесторы все же верят в магию Apple.
+                    <div class="aStates">
+                        <a href="index.html" class="BackAllNews"> &lt; Все новости</a>
+                    </div>
 
 
-            </p>
+                    <div class="backstates">
 
-            <img class="imgstates pic1state1" style="margin: 31% 6.5%;">
-        </main>
+                        <h1 class="NameStates">Тим Кук - о новинках Apple</h1>
 
-        <footer>
-            <a href="state2.html" class="navtxtstate" style="margin-top: 114%; margin-left:  52%;">Новая версия
-                Apple Watch &gt;</a>
-            <a href="index.html" class="navtxtstate" style="margin-top: 114%; margin-left: 5.25%">
-                &lt; Все новости </a>
-        </footer>
+                        <p class="txtstates pSTates">Во время недавней встречи с
+                            инвесторами
+                            в Купертино Тим Кук не
+                            боялся смелых
+                            анонсов. Устройства, которые в ближайшее время представит Apple, по мнению Тима, могут
+                            вызвать
+                            шок у
+                            покупателей.
+                        </p>
+                        <img class="imgstates pic1state1">
+                        <p class="txtstates pSTates">Может показаться, что после
+                            выхода
+                            Samsung Galaxy Fold, Huawei Mate X и
+                            несколько
+                            других инновационных моделей, Apple может набраться уважения к конкуренции, которая, как
+                            никогда
+                            вышла вперед в гонке за внимание покупателей. Но вопреки всему Тим Кук объявил, что Apple
+                            готовит
+                            что-то лучшее. Что именно? Этого мы еще не знаем.
+                        </p>
+                        <p class="txtstates pSTates">Напомним, что в последнее время
+                            в
+                            сети
+                            появилось много патентов,
+                            зарегистрированных компанией Купертино, которые касаются мобильных устройств с гибкими
+                            экранами.
+                            Возможно, что речь идет именно о такого рода оборудовании.
+                        </p>
+                        <p class="txtstates pSTates">Стоит отметить, что Apple,
+                            возможно, в
+                            ближайшие месяцы представит устройства,
+                            находящиеся только в стадии разработки, которые выйдут в продажу в следующем году, так как
+                            это
+                            произошло в случае с беспроводным зарядным устройством AirPower. Это означает, что они
+                            появятся
+                            на
+                            рынке в то время, когда китайская и корейская конкуренция будет представлять второе
+                            поколение
+                            гибких
+                            смартфонов. Инвесторы все же верят в магию Apple.
 
-        </article>
+                        </p>
 
+                    </div>
+
+                    <footer class="footerStates">
+                        <a href="index.html" class="navtxtstate">
+                            &lt; Все новости </a>
+
+                        <a href="state2.html" class="navtxtstate navRight">Новая
+                            версия
+                            Apple Watch &gt;</a>
+
+                    </footer>
+                </section>
+
+                <section>
+                    <div class="Navigation">
+
+                        <h1 class="h1txt">Последние</h1>
+                        <div class="navig">
+
+                            <nav class="nav" id="menu">
+                                <ul><a href="state1.html" class="tnavig tNavigActiv">Тим Кук - о новинках Apple</a></ul>
+                                <ul><a href="state2.html" class="tnavig ">Новая версия Apple Watch</a></ul>
+                                <ul><a href="state3.html" class="tnavig ">Кроссовки шнуруются самостоятельно?</a></ul>
+                                <ul><a href="state4.html" class="tnavig ">Складной смартфон от Microsoft</a></ul>
+                                <ul><a href="state5.html" class="tnavig ">Firefox разработал новый браузер</a></ul>
+                                <ul><a href="state6.html" class="tnavig ">Хакеры управляют Tesla с помощью джойстика</a>
+                                </ul>
+
+
+                            </nav>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
 
     </main>
-    <header>
-        <div class="header">
-            <a class="text_head" href="index.html" style="text-decoration:none">tech<span>News</span></a>
 
-            <div id="timedisplay" class="time" style="color: rgb(204, 118, 19)"></div>
-            <i class="far fa-clock icontime" style="color: rgb(204, 118, 19)"></i>
-            <div id="datedisplay" class="date"></div>
-            <!--<i class="far fa-calendar icondate " aria-hidden="true" style="color: rgb(204, 118, 19)"></i>-->
 
-        </div>
-
-    </header>
-    <footer class="foot" style="margin-top: -5%; margin-left:  13.1%;bottom: -91.5%;">
+    <footer class="foot">
         <p class="txtfoot" style="margin-top: 2.2%; margin-left: 62.5%;">Сделано при поддержке:</p>
-        <p class="txtfoot" style="margin-top: 4.3%; margin-left: 70%;"><em style="color: rgb(32, 112, 216);"
+        <p class="txtfoot" style="margin-top: 4.3%; margin-left: 70%;"><em style="color: rgb(204, 118, 19);"
                 class="txthov" onclick="
-                    imgfooter()">informatics.ru</em></p>
+                imgfooter()">informatics.ru</em></p>
         <p class=" txtfoot" style="margin-top: 2.25%">by<em> Рамаз Омсарашвили</em> </p>
         <p class="txtfoot">Некоторые материалы были взяты с
-            сайта:<em onclick="hittech()" class="txthov" style="color: rgb(204, 118, 19);">&#160; Hi-Tech.news</em>
+            сайта:<em onclick="hittech()" class="txthov" style="color: rgb(204, 118, 19);">&#160;
+                Hi-Tech.news</em>
         </p>
         <img src="https://i.imgur.com/UE39y81.png" class="imgfooter" onclick="imgfooter()">
     </footer>
+
 </body>
 
 </html>

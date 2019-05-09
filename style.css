@@ -2,97 +2,158 @@
  @import url('https://fonts.googleapis.com/css?family=Rubik:500');
 
  body{
-     margin: 0;
+    background-color: rgb(235, 230, 230); 
+    margin: 0; 
  }
- .header {
-     width: 72.75%;
-     position: fixed;
-     margin-top: 0;
-     margin-bottom: 15%;
-     margin-left: 13.1%;
-     height: 67.5px;
-     background-color: rgb(22, 22, 22);
+.headerMain {
+    width:1050px;
+    height: 67.5px;
+    margin: 0px auto;
+    z-index:0;
+    
+    
+  }
+   
+.header {
+    position: fixed;
+    width:965px;
+    height: 67.5px;
+    background-color: rgb(22, 22, 22);
+    display: flex;
     z-index: 9999;
+    margin: 0px auto;
+    padding: 0  42.5px;
+    
+  }
 
+  .dateAll{
+    
+    
+    width:190px;
+    align-items: center;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+  }
+  
+  .time{
+    
+    font-family: Rubik Regular;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 20px;
+    
+    
  }
+ .icontime{
+    font-family: Rubik Regular;
+   
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: 21px;
+    
+ }
+ .date {
+    font-family: Rubik Regular;
+    margin: 0 7px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 20px;
+ 
+  }
 
  .text_head {
      font-family: Rubik;
      position: fixed;
      margin: auto;
      font-size: 32.5px;
-     margin-left: 3.5%;
+     
      margin-top: 16px;
-     margin-bottom: 0;
+     
      color: rgb(255, 255, 255);
      font-weight: normal;
      z-index: 9999;
 
  }
-
- .bitc {
-
-     height: 85px;
-     width: 12%;
-     position: fixed;
-     align-content: right;
-     margin-left: 85.9%;
-     display: block;
- }
-
- .rubl {
-
-     height: 85px;
-     width: 12%;
-     position: fixed;
-     align-content: right;
-     margin-left: 85.9%;
-     display: block;
-     margin-top: 5%;
- }
-
-
- .backgr {
+ .mainBackground{
+     width: 1050px;
+     
      background-color: rgb(255, 255, 255);
-     height: 1325px;
-     width: 72.75%;
-     margin-top: 0;
-     margin-left:  13.1%;
-     position: absolute;
-    
-
+     margin: 0 auto;
+     padding: 0px;
+     
  }
+ .page-content{
+    padding: 50px 42.5px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+
 
  .h1txt {
      font-family: Rubik;
-     position: absolute;
-     margin: 6.5% 4.5%;
+     margin: 0;
      color: rgb(0, 0, 0);
      font-weight: normal;
      font-size: 35px;
+     margin-bottom: 15px;
+     
+     
      
  }
- .img {
-
-     width: 23.95vw;
-     height: 39.8vh;
-     background: rgb(255, 255, 255) url(https://dummyimage.com/300x180/555/fff.png) 50% / cover;
+ .aStates{
+    
+     margin: 12.5px 0 15px 0; 
      
+ }
+ .BackAllNews:hover{
+    color: rgb(88, 88, 88);
+ }
+ .BackAllNews{
+    font-family: Rubik;
+    color: rgb(167, 167, 167);
+    font-weight: normal;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.5s;
+ }
+ .AllnewsMain{
+    
+    width: 762px;
+    
+ }
+ .newsMain{
+    display: inline-flex;
+    flex-wrap: wrap;
+   
+    
+ }
+ .SpaceStates{
+     margin-bottom: 13.5px;
+     margin-right: 13.5px;
+ }
+ .img {
+    
+    
+     width: 367px;
+     height: 301px;
+     background:  50% / cover;
      border-radius: 10px;
-     position: absolute;
-     margin: 12.1% -1.5%;
-     opacity: 1;
-     box-shadow: inset 0px 0px 35px rgba(143, 143, 143, 0.5);
+     
  }
 
  .imgbig {
-     width: 48.8vw;
-     height: 39.8vh;
+   
+     width: 747.5px;
+     height: 301px;
+    
      background: gray url(https://dummyimage.com/300x180/555/fff.png) 50% / cover;
      border-radius: 10px;
-     position: absolute;
-     margin-top: 40.5% ;
-     margin-left: -1.5%;
+     
+    
      box-shadow: inset 0px 0px 35px rgba(143, 143, 143, 0.5);
  }
 
@@ -153,72 +214,28 @@
 
  }
 
- .state1 {
-     margin-left: 6%;
- }
-
- .state2 {
-     margin-left: 40.5%;
- }
-
-
-
- .state3 {
-     
-     margin-left: 6%;
-     
- }
-
- .state4 {
-     margin-left: 6%;
-     margin-top: 56.8%;
- }
-
- .state5 {
-     margin-left: 40.5%;
- }
-
-
-
- .state6 {
-     margin-left: 6%;
-     
- }
-
  .h2st1 {
-     font-family: Rubik;
-     position: absolute;
-     color: rgb(255, 255, 255);
-     font-size: 25px;
-     margin-top: 27.5%;
-     margin-left: 1%;
-     width: 300px;
-     font-weight: 400;
-     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
-
- }
-
- .pst1 {
-     font-family: Rubik Regular;
-     position: absolute;
-     color: rgb(255, 255, 255);
-     font-size: 17px;
-     margin-top: 33.5%;
-     margin-left: 1%;
-     width: 300px;
-     font-weight: 400;
-     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
-
-
- }
-
- .h2st2 {
     font-family: Rubik;
-    position: absolute;
+    margin-bottom: 3.5%;
     color: rgb(255, 255, 255);
     font-size: 25px;
-    margin-top: 27.5%;
-    margin-left: 1%;
+    width: 300px;
+    font-weight: 400;
+    text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
+}
+.pst1 {
+    font-family: Rubik Regular;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    width: 300px;
+    text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
+}
+.h2st2 {
+    font-family: Rubik;
+    color: rgb(255, 255, 255);
+    margin-bottom: 3.5%;
+    font-size: 25px;
     width: 300px;
     font-weight: 400;
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
@@ -228,69 +245,57 @@
 
 .pst2 {
     font-family: Rubik Regular;
-    position: absolute;
+    margin: 0;
     color: rgb(255, 255, 255);
     font-size: 17px;
-    margin-top: 33.5%;
-    margin-left: 1%;
-    width: 300px;
-    text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
-}
-.h2st4 {
-    font-family: Rubik;
-    position: absolute;
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    margin-top: 27.5%;
-    margin-left: 1%;
-    width: 300px;
-    font-weight: 400;
-    text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
-}
-
-
-
-.pst4 {
-    font-family: Rubik Regular;
-    position: absolute;
-    color: rgb(255, 255, 255);
-    font-size: 17px;
-    margin-top: 33.5%;
-    margin-left: 1%;
     width: 300px;
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
 }
 .h2st3 {
     font-family: Rubik;
-    position: absolute;
     color: rgb(0, 0, 0);
+    margin-bottom: 3.5%;
     font-size: 25px;
-    margin-top: 44.5%;
-    margin-left: 1%;
     width: 400px;
     font-weight: 400;
     text-shadow: 0 0 5px rgba(223, 223, 223, 0.5);
 }
 
-
-
 .pst3 {
     font-family: Rubik Regular;
-    position: absolute;
+    margin: 0;
     color: rgb(0, 0, 0);
     font-size: 17px;
-    margin-top: 50.5%;
-    margin-left: 1%;
     width: 310px;
     text-shadow: 0 0 5px rgba(223, 223, 223, 0.5);
 }
+.h2st4 {
+    font-family: Rubik;
+    color: rgb(255, 255, 255);
+    margin-bottom: 3.5%;
+    font-size: 25px;
+    width: 300px;
+    font-weight: 400;
+    text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
+
+}
+
+.pst4 {
+    font-family: Rubik Regular;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 17px;
+    width: 300px;
+    font-weight: 400;
+    text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
+
+
+}
 .h2st5 {
     font-family: Rubik;
-    position: absolute;
     color: rgb(255, 255, 255);
+    margin-bottom: 3.5%;
     font-size: 25px;
-    margin-top: 27.5%;
-    margin-left: 1%;
     width: 300px;
     font-weight: 400;
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
@@ -300,21 +305,17 @@
 
 .pst5 {
     font-family: Rubik Regular;
-    position: absolute;
     color: rgb(255, 255, 255);
+    margin: 0;
     font-size: 17px;
-    margin-top: 33.5%;
-    margin-left: 1%;
     width: 300px;
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
 }
 .h2st6 {
     font-family: Rubik;
-    position: absolute;
     color: rgb(255, 255, 255);
+    margin-bottom: 3.5%;
     font-size: 25px;
-    margin-top: 44.4%;
-    margin-left: 1%;
     width: 350px;
     font-weight: 400;
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
@@ -324,14 +325,25 @@
 
 .pst6 {
     font-family: Rubik Regular;
-    position: absolute;
     color: rgb(255, 255, 255);
+    margin: 0;
     font-size: 17px;
-    margin-top: 50.4%;
-    margin-left: 1%;
     width: 250px;
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
 }
+.textStatesMain{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 25px;
+}
+.textStatesBig{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+
+
  .state1:hover .pic1{
     cursor: pointer;
     filter:none;
@@ -400,117 +412,118 @@
      font-size: 35px;
 }
 ul{
-    padding: 2.5% 5%;
+    padding: 4% 5%;
     margin: 0;
     
 }
 .navig{
     
     background-color: none;
-    padding-bottom: 0.5%;
-    text-align: left;
-    margin-top: 8.75%;
-    margin-left:  53.5%;
-    position: fixed;
-    display: flex;
     background-color: rgb(247, 247, 247);
-    width: 16%;
+    padding: 7px;
+    
     border-radius: 10px;
     box-shadow: inset 0px 0px 20px rgba(190, 190, 190, 0.5);
     
 }
-
+.Navigation{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    width: 205px;
+    
+}
 
 .tnavig {
     
     font-family: Rubik Regular;
-    font-size: 110%;
+    font-size: 1em;
     color: rgb(119, 119, 119);
     font-weight: 500;
     text-decoration: none;
     transition: 0.5s;
-    
-    
-    
+    letter-spacing: 0.5px;
+
 }
 
 .tnavig:hover{
     cursor: pointer;
     color: rgb(0, 0, 0);
-    font-size: 110.5%;
+    font-size: 1.05;
    
 }
-
-.Alltxtst{
-    font-family: Rubik;
-     position: absolute;
-     margin: 7% 4.5%;
-     color: rgb(148, 148, 148);
-     font-weight: normal;
-     font-size: 25px;
-}
-.Zagolovokstates{
-    font-family: Rubik;
-     position: absolute;
-     margin: 14.8% 6.5%;
-     color: rgb(0, 0, 0);
-     font-weight: normal;
-     font-size: 40px;
-     width: 704px;
-     
-}
-.txtstates{
-    font-family: Rubik Regular;
-     position: absolute;
-     color: rgb(85, 85, 85);
-     font-weight: normal;
-     font-size: 18.5px;
-     width: 64%;
-     line-height: 1.75;
-}
-
-.imgstates{
-    width: 704px;
-     height: 350px;
-     background: grey url("https://dummyimage.com/300x180/555/fff.png") 50% / cover;
-     border-radius: 10px;
-     position: absolute;
-     
-     
-}
-.pic1state1{
-    background-image: url("https://www.macdigger.ru/storage/app/media/news/2018/11/18/o-TIM-COOK-facebook.jpg");
-}
-.pic1state2{
-    background-image: url("https://www.shanethegamer.com/wp-content/uploads/2018/09/watch-shop-series4.jpg");
-}
-.pic1state3{
-    background-image: url("https://www.kickstuff.ru/images/blog/nike%20adapt%20bb/Sp19_BB_Nike_Adapt_Shoe_Screen_Horz_01012019_native_1600.jpg");
-}
-.pic1state4{
-    background-image: url("https://3dnews.ru/assets/external/illustrations/2018/06/30/972007/DRVaKWRWAAEqncB.jpg%20large.jpg");
-}
-.pic1state5{
-    background-image: url("https://pbs.twimg.com/media/D0C3kVCXgAAk2Bf.jpg");
-}
-.pic1state6{
-    background-image: url("https://tehnot.com/wp-content/uploads/2017/11/Red_Bay-1440.jpg");
+.tNavigActiv{
+    color: rgb(0, 0, 0);
+    
 }
 .backstates{
-    background-color: rgb(247, 247, 247);
-    margin-top: 12.1% ;
-    margin-left: 4.5%;
-    width: 67.6%;
     
-    position: absolute;
+    width: 720px;
     border-radius: 10px;
+    margin-right: 12px;
+    padding: 15px;
+    background-color: rgb(247, 247, 247);
     box-shadow: inset 0px 0px 20px rgba(190, 190, 190, 0.5);
 }
+.pSTates{
+    font-family: Rubik Regular;
+    margin-top: 0;
+    color: rgb(77, 77, 77);
+    font-size: 17.5px;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+.imgstates{
+    width: 720px;
+     height: 350px;
+     background: 50% / cover;
+     border-radius: 10px;
+    margin-bottom: 20px;
+     
+     
+}
+.videoStates{
+    width: 720px;
+     height: 350px;
+    margin-bottom: 20px;
+    
+}
+.footerStates{
+    margin-top: 15px;
+    width: 750px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.navRight{
+    margin-left: auto;
+    
+}
+.pic1state1{
+    background-image: url("/img/TimKook.webp")
+}
+
+.pic1state2{
+    background-image: url("/img/AppleWatchCollection.webp");
+}
+.pic1state3{
+    background-image: url("/img/Sp19_BB_Nike_Adapt_Shoe_Screen_Horz_01012019_native_1600.webp");
+}
+.pic1state4{
+    background-image: url("/img/MicrosoftPhone.webp");
+}
+.pic2state4{
+    background-image: url("/img/MicrosoftPhone2.webp");
+}
+.pic1state5{
+    background-image: url("/img/TheNewFirefox.webp");
+}
+.pic1state6{
+    background-image: url("/img/TeslaModelS.webp");
+}
+
 
 .navtxtstate{
     font-family: Rubik Regular;
-     position: absolute;
-     
      color: rgb(85, 85, 85);
      font-weight: normal;
      font-size: 16px;
@@ -523,23 +536,17 @@ ul{
     transition: 0.5s;
     font-size: 16.1px;
 }
-.backgrmain{
-    background-color: rgb(255, 255, 255);
-    height: 200%;
-    width: 72.75%;
-    margin: 0 13.1%;
-    position: absolute;
-}
+
 footer{
     bottom: 0;
 }
 .foot{
-    bottom: -106.75%;
+    
     background-color: rgb(22, 22, 22);
-    width: 72.75%;
-    margin-left: 13.1%;
-    height: 12%;
-    position: absolute;
+    width: 1050px;
+    margin: auto;
+    height: 85px;
+    position: relative;
     z-index: 10000;
 }
 .text_footer{
@@ -575,41 +582,13 @@ footer{
  .imgfooter:hover, .txthov:hover {
      cursor: pointer;
     }
- .time{
-    font-family: Rubik Regular;
-    position: absolute;
-    margin-left: 90%;
-    margin-top: 2%;
-    color: rgb(255, 255, 255);
+
+ .NameStates{
+    font-family: Rubik;
+    margin: 0;
+    color: rgb(0, 0, 0);
     font-weight: normal;
-    font-size: 20px;
+    font-size: 35px;
+    margin-bottom: 15px;
     
  }
- .icontime{
-    font-family: Rubik Regular;
-    position: absolute;
-    margin-left: 78%;
-    margin-top: 2.25%;
-    color: rgb(255, 255, 255);
-    font-weight: normal;
-    font-size: 20px;
- }
- .date {
-    font-family: Rubik Regular;
-    position: absolute;
-    margin-left: 80.5%;
-    margin-top: 2%;
-    color: rgb(255, 255, 255);
-    font-weight: normal;
-    font-size: 20px;
-  }
-  .icondate{
-    font-family: Rubik Regular;
-    position: absolute;
-    margin-left: 75.25%;
-    margin-top: 2.25%;
-    color: rgb(255, 255, 255);
-    font-weight: normal;
-    font-size: 20px;
- }
- 
