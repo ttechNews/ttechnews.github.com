@@ -1,1 +1,1 @@
-# ttechnews.github.com
+# ttechnews.github.io
