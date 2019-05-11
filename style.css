@@ -1,5 +1,6 @@
 
  @import url('https://fonts.googleapis.com/css?family=Rubik:500');
+ @import url('https://fonts.googleapis.com/css?family=Rubik');
 
  body{
     background-color: rgb(235, 230, 230); 
@@ -40,7 +41,7 @@
   
   .time{
     
-    font-family: Rubik Regular;
+    font-family: Rubik;
     color: rgb(255, 255, 255);
     font-weight: normal;
     font-size: 20px;
@@ -48,15 +49,11 @@
     
  }
  .icontime{
-    font-family: Rubik Regular;
-   
-    color: rgb(255, 255, 255);
-    font-weight: lighter;
-    font-size: 21px;
     
+    font-size: 21px;
  }
  .date {
-    font-family: Rubik Regular;
+    font-family: Rubik;
     margin: 0 7px;
     color: rgb(255, 255, 255);
     font-weight: normal;
@@ -73,7 +70,7 @@
      margin-top: 16px;
      
      color: rgb(255, 255, 255);
-     font-weight: normal;
+     font-weight: 500;
      z-index: 9999;
 
  }
@@ -97,7 +94,7 @@
      font-family: Rubik;
      margin: 0;
      color: rgb(0, 0, 0);
-     font-weight: normal;
+     font-weight: 500;
      font-size: 35px;
      margin-bottom: 15px;
      
@@ -115,7 +112,7 @@
  .BackAllNews{
     font-family: Rubik;
     color: rgb(167, 167, 167);
-    font-weight: normal;
+    font-weight: 500;
     font-size: 25px;
     text-decoration: none;
     transition: 0.5s;
@@ -136,11 +133,10 @@
      margin-right: 13.5px;
  }
  .img {
-    
-    
+        
      width: 367px;
      height: 301px;
-     background:  50% / cover;
+     background-image:  50% / cover;
      border-radius: 10px;
      
  }
@@ -220,11 +216,12 @@
     color: rgb(255, 255, 255);
     font-size: 25px;
     width: 300px;
-    font-weight: 400;
+    font-weight: 500;
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
 }
 .pst1 {
-    font-family: Rubik Regular;
+    font-family: Rubik;
+    font-weight: normal;
     margin: 0;
     color: rgb(255, 255, 255);
     font-size: 17px;
@@ -237,14 +234,15 @@
     margin-bottom: 3.5%;
     font-size: 25px;
     width: 300px;
-    font-weight: 400;
+    font-weight: 500;
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
 }
 
 
 
 .pst2 {
-    font-family: Rubik Regular;
+    font-family: Rubik;
+    font-weight: normal;
     margin: 0;
     color: rgb(255, 255, 255);
     font-size: 17px;
@@ -257,12 +255,13 @@
     margin-bottom: 3.5%;
     font-size: 25px;
     width: 400px;
-    font-weight: 400;
+    font-weight: 500;
     text-shadow: 0 0 5px rgba(223, 223, 223, 0.5);
 }
 
 .pst3 {
-    font-family: Rubik Regular;
+    font-family: Rubik;
+    font-weight: normal;
     margin: 0;
     color: rgb(0, 0, 0);
     font-size: 17px;
@@ -275,18 +274,18 @@
     margin-bottom: 3.5%;
     font-size: 25px;
     width: 300px;
-    font-weight: 400;
+    font-weight: 500;
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
 
 }
 
 .pst4 {
-    font-family: Rubik Regular;
+    font-family: Rubik;
     color: rgb(255, 255, 255);
     margin: 0;
     font-size: 17px;
     width: 300px;
-    font-weight: 400;
+    font-weight: normal;
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
 
 
@@ -297,14 +296,15 @@
     margin-bottom: 3.5%;
     font-size: 25px;
     width: 300px;
-    font-weight: 400;
+    font-weight: 500;
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
 }
 
 
 
 .pst5 {
-    font-family: Rubik Regular;
+    font-family: Rubik;
+    font-weight: normal;
     color: rgb(255, 255, 255);
     margin: 0;
     font-size: 17px;
@@ -317,14 +317,15 @@
     margin-bottom: 3.5%;
     font-size: 25px;
     width: 350px;
-    font-weight: 400;
+    font-weight: 500;
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
 }
 
 
 
 .pst6 {
-    font-family: Rubik Regular;
+    font-family: Rubik;
+    font-weight: normal;
     color: rgb(255, 255, 255);
     margin: 0;
     font-size: 17px;
@@ -393,24 +394,10 @@
     cursor: pointer;
 }
 .nav {
-    font-family: Rubik;
-    color: rgb(110, 110, 110);
-    font-weight: normal;
     font-size: 103%;
-    
-    
-    
-    
-    
 }
-.posl{
-    font-family: Rubik;
-     margin-top: -25%;
-     position: absolute;
-     color: rgb(0, 0, 0);
-     font-weight: normal;
-     font-size: 35px;
-}
+
+
 ul{
     padding: 4% 5%;
     margin: 0;
@@ -436,10 +423,10 @@ ul{
 
 .tnavig {
     
-    font-family: Rubik Regular;
+    font-family: Rubik;
+    font-weight: normal;
     font-size: 1em;
     color: rgb(119, 119, 119);
-    font-weight: 500;
     text-decoration: none;
     transition: 0.5s;
     letter-spacing: 0.5px;
@@ -466,7 +453,8 @@ ul{
     box-shadow: inset 0px 0px 20px rgba(190, 190, 190, 0.5);
 }
 .pSTates{
-    font-family: Rubik Regular;
+    font-family: Rubik;
+    font-weight: normal;
     margin-top: 0;
     color: rgb(77, 77, 77);
     font-size: 17.5px;
@@ -521,9 +509,8 @@ ul{
     background-image: url("/img/TeslaModelS.webp");
 }
 
-
 .navtxtstate{
-    font-family: Rubik Regular;
+    font-family: Rubik;
      color: rgb(85, 85, 85);
      font-weight: normal;
      font-size: 16px;
@@ -556,7 +543,7 @@ footer{
     font-size: 32.5px;
     margin-left: 4.5%;
     color: rgb(255, 255, 255);
-    font-weight: normal;
+    font-weight: 100;
     z-index: 9999;
  }
  .imgfooter{
@@ -569,14 +556,13 @@ footer{
     
  }
  .txtfoot{
-    font-family: Rubik Regular;
+    font-family: Rubik;
     position: absolute;
     color: rgb(231, 231, 231);
     font-weight: normal;
     font-size: 15.5px;
     margin-left: 4.5%;
     margin-top: 4.5%;
-    font-weight: 100;
     
  }
  .imgfooter:hover, .txthov:hover {
@@ -587,7 +573,7 @@ footer{
     font-family: Rubik;
     margin: 0;
     color: rgb(0, 0, 0);
-    font-weight: normal;
+    font-weight: 500;
     font-size: 35px;
     margin-bottom: 15px;
     
