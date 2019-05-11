@@ -4,8 +4,9 @@
 
  body{
     background-color: rgb(235, 230, 230); 
-    margin: 0; 
+    margin: 0 auto; 
  }
+
 .headerMain {
     width:1050px;
     height: 67.5px;
@@ -26,7 +27,7 @@
     padding: 0  42.5px;
     
   }
-
+ 
   .dateAll{
     
     
@@ -131,6 +132,9 @@
  .SpaceStates{
      margin-bottom: 13.5px;
      margin-right: 13.5px;
+ }
+ .SpaceStates2{
+    margin-bottom: 13.5px;
  }
  .img {
         
@@ -403,46 +407,7 @@ ul{
     margin: 0;
     
 }
-.navig{
-    
-    background-color: none;
-    background-color: rgb(247, 247, 247);
-    padding: 7px;
-    
-    border-radius: 10px;
-    box-shadow: inset 0px 0px 20px rgba(190, 190, 190, 0.5);
-    
-}
-.Navigation{
-    position: fixed;
-    display: flex;
-    flex-wrap: wrap;
-    width: 205px;
-    
-}
 
-.tnavig {
-    
-    font-family: Rubik;
-    font-weight: normal;
-    font-size: 1em;
-    color: rgb(119, 119, 119);
-    text-decoration: none;
-    transition: 0.5s;
-    letter-spacing: 0.5px;
-
-}
-
-.tnavig:hover{
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-    font-size: 1.05;
-   
-}
-.tNavigActiv{
-    color: rgb(0, 0, 0);
-    
-}
 .backstates{
     
     width: 720px;
@@ -481,6 +446,7 @@ ul{
     width: 750px;
     display: flex;
     flex-flow: row wrap;
+    font-size: 16px;
 }
 .navRight{
     margin-left: auto;
@@ -527,42 +493,51 @@ ul{
 footer{
     bottom: 0;
 }
-.foot{
-    
+.footer{
+    align-items: center;
     background-color: rgb(22, 22, 22);
-    width: 1050px;
+    width: 965px;
     margin: auto;
     height: 85px;
-    position: relative;
+    display: flex;
     z-index: 10000;
+    padding: 0 42.5px;
 }
-.text_footer{
-    font-family: Rubik;
-    position: absolute;
-    margin-top: 2.5%;
-    font-size: 32.5px;
-    margin-left: 4.5%;
-    color: rgb(255, 255, 255);
-    font-weight: 100;
-    z-index: 9999;
- }
+.MadeWith{
+    
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+.foot{ 
+        
+        display: flex;
+    
+}
+
  .imgfooter{
     width: 158.2x;
     height: 36.2px;
-    margin-top: 2.5%;
-    margin-left:  81%;
     z-index: 10001;
+    margin: auto auto auto 15px;
     
+ }
+ .txtfootName{
+     margin-top: 0;
+     margin-bottom: 5px;
+     font-family: Rubik;
+    color: rgb(231, 231, 231);
+    font-weight: normal;
+    font-size: 15.5px;
     
  }
  .txtfoot{
     font-family: Rubik;
-    position: absolute;
+ 
     color: rgb(231, 231, 231);
     font-weight: normal;
     font-size: 15.5px;
-    margin-left: 4.5%;
-    margin-top: 4.5%;
+    margin: 0 auto;
     
  }
  .imgfooter:hover, .txthov:hover {
@@ -578,3 +553,161 @@ footer{
     margin-bottom: 15px;
     
  }
+ .navig{
+    
+    background-color: none;
+    background-color: rgb(247, 247, 247);
+    padding: 7px;
+    
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 20px rgba(190, 190, 190, 0.5);
+    
+}
+.Navigation{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    width: 205px;
+    
+}
+
+.tnavig {
+    
+    font-family: Rubik;
+    font-weight: normal;
+    font-size: 1em;
+    color: rgb(119, 119, 119);
+    text-decoration: none;
+    transition: 0.5s;
+    letter-spacing: 0.5px;
+
+}
+
+.tnavig:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 1.05;
+   
+}
+.tNavigActiv{
+    color: rgb(0, 0, 0);
+    
+}
+ @media (min-width: 320px){
+    
+}
+
+@media (min-width: 768px){
+
+    .Navigation{
+        display: none;
+    }
+    .headerMain{
+        width: 840px;
+        margin: 0 auto;
+    }
+    .header {
+        
+        width:755px; 
+      }
+      .mainBackground{
+        width: 840px;
+      }
+      .footer{
+    
+        width: 755px;
+      
+    }
+    .foot{
+    
+        width: 755px;
+      
+    }
+    .AllnewsMain{
+    
+        width: 747.5px;
+        
+     }
+     .page-content{
+        padding: 50px 46.5px;
+     }
+
+     .txtfootName{
+       
+       font-size: 14px;
+       
+    }
+    .MadeWith{
+    
+        margin-left: auto;
+        
+        justify-content: flex-end;
+      }
+    .txtfoot{
+       
+       font-size: 14px;
+    }
+
+    .navtxtstate{
+        font-size: 17.5px;
+
+    }
+    .navtxtstate:hover{
+        color: rgb(0, 0, 0);
+        transition: 0.5s;
+        font-size: 17.6px;
+
+    }
+
+}
+
+
+@media (min-width: 1024px){
+    .Navigation{
+        
+        display: flex;
+       
+    }
+    .headerMain {
+        width:1050px;
+      }
+      .header {
+        
+        width:965px; 
+      }
+      .mainBackground{
+        width: 1050px;   
+      }
+      .foot{
+        
+        width: 965px;
+       
+    }
+    .AllnewsMain{
+    
+        width: 762px;
+        
+     }
+     .page-content{
+        padding: 50px 42.5px;
+     }
+     .footer{
+    
+        width: 965px;
+      
+    }
+    .txtfootName{
+       
+        font-size: 15.5px;
+        
+     }
+     .txtfoot{
+        
+        font-size: 15.5px;
+     }
+     .navtxtstate{
+        font-size: 16px;
+
+    }
+}
+
