@@ -594,7 +594,85 @@ footer{
     
 }
  @media (min-width: 320px){
+    .Navigation{
+        display: none;
+    }
+    .headerMain{
+        width: 840px;
+        margin: 0 auto;
+    }
+    .header {
+        height: 85.6px;
+        width:755px; 
+      }
+      .mainBackground{
+        width: 840px;
+      }
+      .text_head {
+       
+        font-size: 45.5px;
+
+
+    }
+    .dateAll{
+        width:280px;
+      }
+    .time{  
+        font-size: 27.5px;
+     }
+     .icontime{
+        font-size: 27.5px;
+     }
+     .date {
+        font-size:27.5px;
+        margin: 0 10px;
+      }
+    .footer{
     
+        width: 755px;
+      
+    }
+    .foot{
+    
+        width: 755px;
+      
+    }
+    .newsMain{
+        
+        width: 367px;
+        
+     }
+     .page-content{
+        padding: 50px 50px;
+     }
+
+     .txtfootName{
+       
+       font-size: 14px;
+       
+    }
+    .MadeWith{
+    
+        margin-left: auto;
+        
+        justify-content: flex-end;
+      }
+    .txtfoot{
+       
+       font-size: 14px;
+    }
+
+    .navtxtstate{
+        font-size: 17.5px;
+
+    }
+    .navtxtstate:hover{
+        color: rgb(0, 0, 0);
+        transition: 0.5s;
+        font-size: 17.6px;
+
+    }
+
 }
 
 @media (min-width: 768px){
@@ -607,11 +685,31 @@ footer{
         margin: 0 auto;
     }
     .header {
-        
+        height: 67.5px;
         width:755px; 
       }
       .mainBackground{
         width: 840px;
+      }
+      .text_head {
+       
+        font-size: 32.5px;
+        
+        
+
+    }
+    .dateAll{
+        width:190px;
+      }
+    .time{  
+        font-size: 20px;
+     }
+     .icontime{
+        font-size: 21px;
+     }
+     .date {
+        font-size:20px;
+        margin: 0 7px;
       }
       .footer{
     
@@ -623,6 +721,11 @@ footer{
         width: 755px;
       
     }
+    .newsMain{
+        
+        width: 747.5px;
+        
+     }
     .AllnewsMain{
     
         width: 747.5px;
