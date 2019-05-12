@@ -219,7 +219,7 @@
     margin-bottom: 3.5%;
     color: rgb(255, 255, 255);
     font-size: 25px;
-    width: 300px;
+    
     font-weight: 500;
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
 }
@@ -229,7 +229,7 @@
     margin: 0;
     color: rgb(255, 255, 255);
     font-size: 17px;
-    width: 300px;
+    
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
 }
 .h2st2 {
@@ -237,7 +237,7 @@
     color: rgb(255, 255, 255);
     margin-bottom: 3.5%;
     font-size: 25px;
-    width: 300px;
+    
     font-weight: 500;
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
 }
@@ -250,7 +250,7 @@
     margin: 0;
     color: rgb(255, 255, 255);
     font-size: 17px;
-    width: 300px;
+    
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
 }
 .h2st3 {
@@ -277,7 +277,7 @@
     color: rgb(255, 255, 255);
     margin-bottom: 3.5%;
     font-size: 25px;
-    width: 300px;
+    
     font-weight: 500;
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
 
@@ -288,7 +288,7 @@
     color: rgb(255, 255, 255);
     margin: 0;
     font-size: 17px;
-    width: 300px;
+   
     font-weight: normal;
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
 
@@ -299,7 +299,7 @@
     color: rgb(255, 255, 255);
     margin-bottom: 3.5%;
     font-size: 25px;
-    width: 300px;
+   
     font-weight: 500;
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
 }
@@ -312,7 +312,7 @@
     color: rgb(255, 255, 255);
     margin: 0;
     font-size: 17px;
-    width: 300px;
+    
     text-shadow: 0 0 5px rgba(31, 31, 31, 0.726);
 }
 .h2st6 {
@@ -340,6 +340,7 @@
     position: absolute;
     margin-top: 150px;
     margin-left: 25px;
+    width: 300px;
 }
 .textStatesBig{
     position: absolute;
@@ -639,11 +640,11 @@ footer{
     }
     .newsMain{
         
-        width: 367px;
+        width: 700px;
         
      }
      .page-content{
-        padding: 50px 50px;
+        padding: 50px 70px;
      }
 
      .txtfootName{
@@ -672,11 +673,136 @@ footer{
         font-size: 17.6px;
 
     }
+    .h1txt{
+      
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .SpaceStates{
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .SpaceStates2{
+        margin-bottom: 25px;
+    }
+    .img, .imgbig{
+        width: 700px;  
+    }
+    .pic4 {
+        background-image: url("img/MicroPhone.jpg");
+        filter: grayscale(0%);
+    }
+   
+    .pic2 {
+        background-image: url("img/AppleWatch.jpg");
+        filter: grayscale(0%);
+    }
+   
+   
+    .pic3 {
+        background-image: url("img/Cross.webp");
+        filter: grayscale(0%);
+    }
+   
+   
+   
+    .pic1 {
+        background-image: url("img/TimKk.jpg");
+        filter: grayscale(0%);
+    }
+   
+   
+   
+    .pic5 {
+        background-image: url("img/FireBrowser.jpg");
+        filter: grayscale(0%);
+
+    }
+   
+   
+   
+    .pic6 {
+        background-image: url("img/tesla.webp");
+        filter: grayscale(0%);
+
+    }
+    .textStatesMain{
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 25px;
+        width: 340px;
+    }
+
 
 }
 
 @media (min-width: 768px){
 
+    .SpaceStates{
+        margin-bottom: 13.5px;
+        margin-right: 13.5px;
+    }
+    .SpaceStates2{
+       margin-bottom: 13.5px;
+    }
+
+    .h1txt{
+        text-align: left;
+        margin: 0 0 15px 0;
+    }
+    .textStatesMain{
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 25px;
+        width: 300px;
+    }
+    .img {
+        width: 367px;  
+    }
+    .imgbig{
+        width: 747.5px;
+    }
+    .pic4 {
+        background-image: url("img/Apple.webp");
+        filter: grayscale(100%);
+
+    }
+   
+    .pic2 {
+        background-image: url("img/ApWatch.webp");
+        filter: grayscale(100%);
+
+    }
+   
+   
+    .pic3 {
+        background-image: url("img/Cross.webp");
+        filter: grayscale(100%);
+
+    }
+   
+   
+   
+    .pic1 {
+        background-image: url("img/Tim.webp");
+        filter: grayscale(100%);
+    }
+   
+   
+   
+    .pic5 {
+        background-image: url("img/FireFox.webp");
+        filter: grayscale(100%);
+
+    }
+   
+   
+   
+    .pic6 {
+        background-image: url("img/tesla.webp");
+        filter: grayscale(100%);
+
+    }
     .Navigation{
         display: none;
     }
