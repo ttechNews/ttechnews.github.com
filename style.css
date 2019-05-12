@@ -653,8 +653,7 @@ footer{
 
     }
     .navtxtstate:hover{
-        color: rgb(0, 0, 0);
-        transition: 0.5s;
+
         font-size: 17.6px;
 
     }
@@ -707,6 +706,10 @@ footer{
      }
      .navtxtstate{
         font-size: 16px;
+
+    }
+    .navtxtstate:hover{
+        font-size: 16.1px;
 
     }
 }
