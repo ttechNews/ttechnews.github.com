@@ -517,7 +517,7 @@ footer{
 }
 
  .imgfooter{
-    width: 158.2x;
+    width: 158.2px;
     height: 36.2px;
     z-index: 10001;
     margin: auto auto auto 15px;
@@ -732,12 +732,28 @@ footer{
         margin-left: 25px;
         width: 340px;
     }
-
-
+    .Supp{
+        display: none;
+    }
+    .txtfootName, .txtfoot{
+        font-size: 17px;
+    }
+    .footer{
+        height: 95px;
+    }
+    
 }
 
 @media (min-width: 768px){
-
+    .footer{
+        height: 85px;
+    }
+    .txtfootName, .txtfoot{
+        font-size: 15.5px;
+    }
+    .Supp{
+        display: block;
+    }
     .SpaceStates{
         margin-bottom: 13.5px;
         margin-right: 13.5px;
