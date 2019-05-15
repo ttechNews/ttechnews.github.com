@@ -669,13 +669,13 @@ footer{
     }
 
     .navtxtstate{
-        font-size: 17.5px;
+        font-size: 19.5px;
 
     }
     .navtxtstate:hover{
         color: rgb(0, 0, 0);
         transition: 0.5s;
-        font-size: 17.6px;
+        font-size: 19.6px;
 
     }
     .h1txt{
@@ -780,17 +780,11 @@ footer{
     .NameStates{
         font-size: 36px;
     }
-    .navtxtstate{
-        font-size: 21.5px;
-
-    }
+    
 }
 
 @media (min-width: 768px){
-    .navtxtstate{
-        font-size: 17px;
 
-    }
     .NameStates{
         font-size: 35px;
     }
