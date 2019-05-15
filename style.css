@@ -787,6 +787,10 @@ footer{
 }
 
 @media (min-width: 768px){
+    .navtxtstate{
+        font-size: 17px;
+
+    }
     .NameStates{
         font-size: 35px;
     }
