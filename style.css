@@ -452,7 +452,8 @@ ul{
 }
 .navRight{
     margin-left: auto;
-    
+    width: 300px;
+    text-align: right;
 }
 .pic1state1{
     background-image: url("/img/TimKook.webp")
@@ -582,6 +583,7 @@ footer{
     text-decoration: none;
     transition: 0.5s;
     letter-spacing: 0.5px;
+   
 
 }
 
