@@ -346,6 +346,7 @@
     position: absolute;
     margin-top: 10px;
     margin-left: 25px;
+    
 }
 
 
@@ -764,9 +765,43 @@ footer{
     .videoStates{
         width: 670px;
     }
+    .h2st1, .h2st2, .h2st3, .h2st4, .h2st5, .h2st6{
+        font-size: 26px;
+    }
+    .pst1, .pst2, .pst3, .pst4, .pst5, .pst6{
+        font-size: 18px;
+    }
+    .pst3{
+        width: 280px;
+    }
+    .pSTates{
+        font-size: 18.5px;
+    }
+    .NameStates{
+        font-size: 36px;
+    }
+    .navtxtstate{
+        font-size: 18.5px;
+
+    }
 }
 
 @media (min-width: 768px){
+    .NameStates{
+        font-size: 35px;
+    }
+    .pSTates{
+        font-size: 17.5px;
+    }
+    .pst3{
+        width: 310px;
+    }
+    .pst1, .pst2, .pst3, .pst4, .pst5, .pst6{
+        font-size: 17px;
+    }
+    .h2st1, .h2st2, .h2st3, .h2st4, .h2st5, .h2st6{
+        font-size: 25px;
+    }
     .videoStates{
         width: 720px;
     }
