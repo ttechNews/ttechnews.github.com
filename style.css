@@ -452,7 +452,7 @@ ul{
 }
 .navRight{
     margin-left: auto;
-    width: 300px;
+    width: 305px;
     text-align: right;
 }
 .pic1state1{
@@ -600,7 +600,7 @@ footer{
 .MainState{
     width: 762px;
 }
- @media (min-width: 320px){
+ @media (min-width: 0px){
     .Navigation{
         display: none;
     }
