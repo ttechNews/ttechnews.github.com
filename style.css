@@ -697,32 +697,32 @@ footer{
     }
     .pic4 {
         background-image: url("img/MicroPhone.jpg");
-        
+        filter: grayscale(0%);
     }
    
     .pic2 {
         background-image: url("img/AppleWatch.jpg");
-       
+        filter: grayscale(0%);
     }
    
    
     .pic3 {
         background-image: url("img/Cross.webp");
-       
+        filter: grayscale(0%);
     }
    
    
    
     .pic1 {
         background-image: url("img/TimKk.jpg");
-       
+        filter: grayscale(0%);
     }
    
    
    
     .pic5 {
         background-image: url("img/FireBrowser.jpg");
-        
+        filter: grayscale(0%);
 
     }
    
@@ -730,7 +730,7 @@ footer{
    
     .pic6 {
         background-image: url("img/tesla.webp");
-       
+        filter: grayscale(0%);
 
     }
     .textStatesMain{
@@ -986,6 +986,47 @@ footer{
 
 
 @media (min-width: 1024px){
+    .pic4 {
+        background-image: url("img/Apple.webp");
+        filter: grayscale(100%);
+
+    }
+   
+    .pic2 {
+        background-image: url("img/ApWatch.webp");
+        filter: grayscale(100%);
+
+    }
+   
+   
+    .pic3 {
+        background-image: url("img/Cross.webp");
+        filter: grayscale(100%);
+    }
+   
+   
+   
+    .pic1 {
+        background-image: url("img/Tim.webp");
+        filter: grayscale(100%);
+    }
+   
+   
+   
+    .pic5 {
+        background-image: url("img/FireFox.webp");
+        
+        filter: grayscale(100%);
+    }
+   
+   
+   
+    .pic6 {
+        background-image: url("img/tesla.webp");
+        filter: grayscale(100%);
+
+    }
+    
     .Navigation{
         
         display: flex;
