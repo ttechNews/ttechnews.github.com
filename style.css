@@ -716,6 +716,7 @@ footer{
     .pic1 {
         background-image: url("img/TimKk.jpg");
         filter: grayscale(0%);
+        
     }
    
    
@@ -733,11 +734,18 @@ footer{
         filter: grayscale(0%);
 
     }
+    .darkImgBig, .darkImg{
+        width: 700px;
+        height: 301px;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
     .textStatesMain{
         position: absolute;
         margin-top: 10px;
         margin-left: 25px;
         width: 300px;
+        
     }
     
     .Supp{
@@ -786,6 +794,15 @@ footer{
 }
 
 @media (min-width: 768px){
+
+    .darkImgBig{
+        width: 747.5px;
+    }
+    .darkImg{
+        width: 367px;
+        height: 301px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
 
     .NameStates{
         font-size: 35px;
@@ -986,6 +1003,10 @@ footer{
 
 
 @media (min-width: 1024px){
+    
+    .darkImg, .darkImgBig{
+        display: none;
+    }
     .pic4 {
         background-image: url("img/Apple.webp");
         filter: grayscale(100%);
