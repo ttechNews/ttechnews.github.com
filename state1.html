@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <link rel="stylesheet" href="style.css" type="text/css" />
@@ -8,59 +8,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Тим Кук - о новинках Apple</title>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
-<script language="JavaScript">
-
-    function imgfooter(url) {
-        myWin = open(url = "https://informatics.ru");
-    } 
-</script>
-<script language="JavaScript">
-
-    function hittech(url) {
-        myWin = open(url = "https://hi-tech.news");
-    } 
-</script>
-
-<!--СКРИПТ - ВРЕМЯ НА САЙТЕ-->
-<script type="text/javascript">
-    function getDate() {
-        var date = new Date();
-        var hours = date.getHours();
-        var minutes = date.getMinutes();
-        var seconds = date.getSeconds();
-
-        if (minutes < 10) {
-            minutes = '0' + minutes;
-        }
-        document.getElementById('timedisplay').innerHTML = hours + ':' + minutes;
-    }
-    setInterval(getDate, 0);
-</script>
-<script type="text/javascript">
-    function getDate2() {
-
-        var date = new Date();
-        var datet = date.getDate();
-        var montharray = new Array("января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря")
-        var month = montharray[date.getMonth()];
-        document.getElementById('datedisplay').innerHTML = datet + " " + month;
-    }
-    setInterval(getDate2, 0);
-</script>
-<!--ВРЕМЯ НА САЙТЕ-->
 
 <body>
 
     <header>
         <div class="headerMain" id="l1">
             <div class="header">
-                <section>
+                <div>
                     <a class="text_head" href="index.html" style="text-decoration:none">tech<span>News</span></a>
-                </section>
+                </div>
 
                 <div class="dateAll">
 
@@ -156,14 +118,18 @@
                         <div class="navig">
 
                             <nav class="nav" id="menu">
-                                <ul><a href="state1.html" class="tnavig tNavigActiv">Тим Кук - о новинках Apple</a></ul>
-                                <ul><a href="state2.html" class="tnavig ">Новая версия Apple Watch</a></ul>
-                                <ul><a href="state3.html" class="tnavig ">Кроссовки шнуруются самостоятельно?</a></ul>
-                                <ul><a href="state4.html" class="tnavig ">Складной смартфон от Microsoft</a></ul>
-                                <ul><a href="state5.html" class="tnavig ">Firefox разработал новый браузер</a></ul>
-                                <ul><a href="state6.html" class="tnavig ">Хакеры управляют Tesla с помощью джойстика</a>
+                                <ul>
+                                    <li><a href="state1.html" class="tnavig tNavigActiv">Тим Кук - о новинках Apple</a>
+                                    </li>
+                                    <li><a href="state2.html" class="tnavig ">Новая версия Apple Watch</a></li>
+                                    <li><a href="state3.html" class="tnavig ">Кроссовки шнуруются самостоятельно?</a>
+                                    </li>
+                                    <li><a href="state4.html" class="tnavig ">Складной смартфон от Microsoft</a></li>
+                                    <li><a href="state5.html" class="tnavig ">Firefox разработал новый браузер</a></li>
+                                    <li><a href="state6.html" class="tnavig ">Хакеры управляют Tesla с помощью
+                                            джойстика</a>
+                                    </li>
                                 </ul>
-
 
                             </nav>
                         </div>
@@ -191,7 +157,7 @@
                     <p class="txtfoot Supp"><em style="color: rgb(58, 137, 240);" class="txthov" onclick="
                     imgfooter()">informatics.ru</em></p>
                 </div>
-                <img src="https://i.imgur.com/UE39y81.png" class="imgfooter" onclick="imgfooter()">
+                <img src="https://i.imgur.com/UE39y81.png" alt="logo" class="imgfooter" onclick="imgfooter()">
             </div>
         </div>
     </footer>
