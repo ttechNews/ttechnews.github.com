@@ -6,7 +6,7 @@
 
 .headerMain {
     position: fixed;
-    height: 67.5px;
+    height: 69.5px;
     width: 100%;
     left: 0;
     top: 0;
@@ -613,6 +613,13 @@ ul{
     width: 762px;
 }
  @media (min-width: 0px){
+    .headerMain {
+        height: 75px;
+      }
+       
+    .header {
+        height: 75px;
+      }
     .Navigation{
         display: none;
     }
@@ -630,13 +637,13 @@ ul{
         width:280px;
       }
     .time{  
-        font-size: 27.5px;
+        font-size: 24px;
      }
      .icontime{
-        font-size: 27.5px;
+        font-size: 24px;
      }
      .date {
-        font-size:27.5px;
+        font-size:24px;
         margin: 0 10px;
       }
     
@@ -787,6 +794,7 @@ ul{
     }
     .foot{
         width: 700px;
+        height: 95px;
     }
     
     .header {
@@ -797,16 +805,26 @@ ul{
     }
     .footer{
         width: 840px;
+        height: 95px;
     }
 }
 
 @media (min-width: 768px){
 
+    .headerMain {
+        height: 69.5px;
+      }
+       
+    .header {
+        height: 67.5px;
+      }
     .foot{
         width: 747px;
+        height: 85px;
     }
     .footer{
         width: 840px;
+        height: 85px;
     }
     .header {
         width: 747px;
